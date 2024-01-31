@@ -1,0 +1,58 @@
+/* src/pages/home/MyStatement.css */
+
+.my-statement-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.my-image {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.text-container {
+    max-width: 800px;
+    margin-left: 20px;
+    height: 200px;
+}
+
+.name-container {
+    height: 100px; 
+    /* justify-content: space-between; */
+}
+
+.typing {
+    display: inline-block;
+    white-space: nowrap;
+    color: crimson;
+    font-size: 20px; /* Adjust font size for phones */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .my-statement-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-image {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .text-container {
+        margin-left: 0;
+        height: auto;
+        overflow: visible;
+        text-align: center;
+    }
+
+    .text-container h1{
+        font-size: 33px;
+        
+    }
+
+}

@@ -1,0 +1,33 @@
+/* src/components/navbar/MainNavbar.css */
+
+.main-navbar .navbar-nav .nav-item .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+    color: black; /* Set default text color */
+}
+
+.main-navbar .navbar-nav .nav-link:hover {
+    color: crimson;
+}
+
+.main-navbar.sticky-top .navbar-nav .nav-item .nav-link {
+    color: white; /* Set text color when sticky */
+}
+
+.main-navbar.sticky-top .navbar-nav .nav-link:hover {
+    color: white; /* Set text color on hover when sticky */
+}
+
+.main-navbar.sticky-top {
+    z-index: 1020;
+}
+
+.main-navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.main-navbar.not-at-top {
+    background-color: crimson; /* Chosen color when not at top */
+    color: white; /* Set text color when not at top */
+}
