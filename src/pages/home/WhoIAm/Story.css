@@ -1,0 +1,15 @@
+/* src/pages/home/WhoIAm/Story.css */
+.story-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.story-container h2 {
+    color: #333;
+}
+
+.story-container p {
+    color: #555;
+}

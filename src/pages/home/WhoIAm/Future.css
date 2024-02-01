@@ -1,0 +1,15 @@
+/* src/pages/home/WhoIAm/Future.css */
+.future-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.future-container h2 {
+    color: #333;
+}
+
+.future-container p {
+    color: #555;
+}

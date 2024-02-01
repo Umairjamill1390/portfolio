@@ -1,0 +1,61 @@
+/* src/pages/home/WhoIAm.css */
+
+/* Shared styles for all components in the WhoIAm section */
+.who-i-am-container {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+/* Story.js */
+.story-container {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Background.js */
+.background-container {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Motivations.js */
+.motivations-container {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Inspirations.js */
+.inspirations-container {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Quote.js */
+.quote-container {
+    font-style: italic;
+    color: #555;
+}
+
+/* Future.js */
+.future-container {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Vision.js */
+.vision-container {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* BeyondTech.js */
+.beyond-tech-container {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* FavoriteShows.js */
+.favorite-shows-container {
+    font-size: 18px;
+    line-height: 1.6;
+}

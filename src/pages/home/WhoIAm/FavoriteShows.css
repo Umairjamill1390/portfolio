@@ -1,0 +1,15 @@
+/* src/pages/home/WhoIAm/FavoriteShows.css */
+.favorite-shows-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.favorite-shows-container h2 {
+    color: #333;
+}
+
+.favorite-shows-container p {
+    color: #555;
+}

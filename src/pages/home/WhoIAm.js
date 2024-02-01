@@ -1,13 +1,28 @@
 // src/pages/home/WhoIAm.js
 import React from 'react';
+import './WhoIAm.css';
+import Story from './WhoIAm/Story';
+import Background from './WhoIAm/Background';
+import Motivations from './WhoIAm/Motivations';
+import Inspirations from './WhoIAm/Inspirations';
+import Quote from './WhoIAm/Quote';
+import Future from './WhoIAm/Future';
+import Vision from './WhoIAm/Vision';
+import BeyondTech from './WhoIAm/BeyondTech';
+import FavoriteShows from './WhoIAm/FavoriteShows';
 
 const WhoIAm = () => {
     return (
         <div>
-            My background is that I am a US citizen with experience in
-            customer service as well as coding and advertisement 
-            campaigns.
-            
+            <Story />
+            <Background />
+            <Motivations />
+            <Inspirations />
+            <Quote />
+            <Future />
+            <Vision />
+            <BeyondTech />
+            <FavoriteShows />
         </div>
     );
 };

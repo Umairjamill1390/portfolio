@@ -1,0 +1,15 @@
+/* src/pages/home/WhoIAm/Background.css */
+.background-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.background-container h2 {
+    color: #333;
+}
+
+.background-container p {
+    color: #555;
+}

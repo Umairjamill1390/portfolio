@@ -1,0 +1,15 @@
+/* src/pages/home/WhoIAm/Quote.css */
+.quote-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.quote-container h2 {
+    color: #333;
+}
+
+.quote-container p {
+    color: #555;
+}

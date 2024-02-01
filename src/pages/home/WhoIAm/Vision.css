@@ -1,0 +1,15 @@
+/* src/pages/home/WhoIAm/Vision.css */
+.vision-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.vision-container h2 {
+    color: #333;
+}
+
+.vision-container p {
+    color: #555;
+}
